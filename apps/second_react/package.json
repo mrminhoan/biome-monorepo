@@ -1,0 +1,15 @@
+{
+  "name": "apps-second-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "biome check src",
+    "format": "biome check --write src"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
