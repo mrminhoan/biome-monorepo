@@ -4,6 +4,9 @@
   "overrides": [
     {
       "include": ["src/**"],
+      "formatter": {
+        "indentWidth": 10
+      },
       "linter": {
         "rules": {
           "a11y": {

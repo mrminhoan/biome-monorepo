@@ -1,9 +1,8 @@
 {
-  "name": "@repo/biome-config",
-  "type": "module",
-  "description": "Monorepo-wide Biome configuration",
-  "exports": {
-    ".": "./biome.json",
-    "./library": "./library-biome.json"
-  }
+	"name": "@repo/biome-config",
+	"type": "module",
+	"description": "Monorepo-wide Biome configuration",
+	"exports": {
+		".": "./biome.json"
+	}
 }
